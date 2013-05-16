@@ -5,7 +5,7 @@
 
 #F0Fmulti.regent-dark { background: #1C1B1A; }
 
-.cm-s-regent-dark div.CodeMirror-selected { background: #F0F !important; }
+.cm-s-regent-dark div.CodeMirror-selected { background: #49483E !important; }
 .cm-s-regent-dark .CodeMirror-gutter { background: #1C1B1A; border-right: 7px solid #1C1B1A; min-width:2.5em; }
 .cm-s-regent-dark .CodeMirror-gutter-text { color: white; }
 .cm-s-regent-dark .CodeMirror-cursor { border-left: 1px solid white !important; }
@@ -52,13 +52,6 @@
 .cm-s-regent-dark .cm-hr {color: #F0F;}
 .cm-s-regent-dark .cm-string-2 {color: #F0F;}
 
-
-
-
-/* ---------------------------------------------------------------------------------------- */
-/* .cm-s-regent-dark span.cm-SUBST { color:#F0FFF1F69; } */
-/* .cm-s-regent-dark .activeline { background:#F0F303030; } */
-/* .cm-s-regent-dark span.cm-builtin, .cm-s-regent-dark span.cm-special { color: #F0F; }*/
 
 /* Rainbow Parens
 .cm-s-regent-dark span.cm-bracket0 { #F0FFF9EB8; }
