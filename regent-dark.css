@@ -3,28 +3,51 @@
  *
  */
 
-#F0Fmulti.regent-dark { background: #1C1B1A; }
+#multi.regent-dark {
+  background: #1C1B1A;
+  color: #F8F6F2;
+}
 
-.cm-s-regent-dark div.CodeMirror-selected { background: #49483E !important; }
-.cm-s-regent-dark .CodeMirror-gutter { background: #1C1B1A; border-right: 7px solid #1C1B1A; min-width:2.5em; }
-.cm-s-regent-dark .CodeMirror-gutter-text { color: white; }
-.cm-s-regent-dark .CodeMirror-cursor { border-left: 1px solid white !important; }
+ /* Default color. Var names */
+.cm-s-regent-dark {
+  background: #1C1B1A; color: #F8F6F2;
+}
 
+/* Gutter */
+.cm-s-regent-dark .CodeMirror-gutters {
+  background-color: #1C1B1A;           /* Line numbers background */
+  box-shadow: none;
+  border-right: 1px solid #F8F6F2;
+}
 
-.cm-negative {color: #F0F;}
-.cm-positive {color: #F0F;}
-.cm-header, .cm-strong {font-weight: bold;}
-.cm-em {font-style: italic;}
-.cm-emstrong {font-style: italic; font-weight: bold;}
-.cm-link {text-decoration: underline;}
-.cm-invalidchar {color: #F0F;}
+/* Selected Text*/
+.cm-s-regent-dark div.CodeMirror-selected {
+  background: #49483E !important;
+}
+
+/* Cursor */
+.cm-s-regent-dark .CodeMirror-cursor {
+  border-left: 1px solid #F8F6F2 !important;
+}
 
 /* highlights matching brackets */
-.cm-s-regent-dark span.CodeMirror-matchingbracket { color:#E58E0F; text-decoration: underline; }
+.cm-s-regent-dark span.CodeMirror-matchingbracket {
+  color:#9AB597;
+  text-decoration: underline;
+}
+
+/* Line Numbers */
+.cm-s-regent-dark .CodeMirror-linenumber {
+  color: #F8F6F2;
+}
+
+/* Lines */
+.cm-s-regent-dark .CodeMirror-lines {
+  padding-left: 5px;
+}
 
 
 /* Clojure -------------------------------------------------------------------------------- */
-.cm-s-regent-dark { background: #1C1B1A; color: #F8F6F2; }   /* Default color. Var names */
 .cm-s-regent-dark .cm-bracket {color: #6E956A;}              /* Parens */
 .cm-s-regent-dark .cm-builtin {color: #F17413;}              /* Functions and macros (not, nil? merge) */
 .cm-s-regent-dark .cm-keyword {color: #519023;}              /* Functions and macros (defn, def, let) */
@@ -32,37 +55,34 @@
 .cm-s-regent-dark .cm-comment {color: #74B423;}              /* Comments */
 .cm-s-regent-dark .cm-string {color: #F55E33;}               /* Strings */
 .cm-s-regent-dark .cm-number {color: #87C5B8;}               /* Numbers */
+
+
+
+/* HTML/CSS -------------------------------------------------------------------------------- */
+.cm-s-regent-dark .cm-variable-2 {color: #F0F;}             /* CSS Property value names */
+.cm-s-regent-dark .cm-property {color: #F0F;}               /* CSS property names */
+.cm-s-regent-dark .cm-attribute {color: #F0F;}              /* HTML attribute names */
+.cm-s-regent-dark .cm-qualifier {color: #F0F;}              /* CSS class names */
+.cm-s-regent-dark .cm-def {color: #F0F;}                    /* CSS directives */
+.cm-s-regent-dark .cm-meta {color: #F0F;}                   /* HTML meta (doctype) */
+.cm-s-regent-dark .cm-tag {color: #F0F;}                    /* HTML tags */
+.cm-s-regent-dark .cm-link {color: #F0F;}
+.cm-s-regent-dark .cm-header {color: #F0F;}
+.cm-s-regent-dark .cm-quote {color: #F0F;}
+.cm-s-regent-dark .cm-hr {color: #F0F;}
+.cm-s-regent-dark .cm-string-2 {color: #F0F;}
 .cm-s-regent-dark .cm-variable {color: #F17413;}
 .cm-s-regent-dark .cm-variable-3 {color: #F0F;}
 .cm-s-regent-dark .cm-operator {color: #F17413;}
 .cm-s-regent-dark .cm-error {color: #F0F;}
 
 
-/* HTML/CSS -------------------------------------------------------------------------------- */
-.cm-s-regent-dark .cm-variable-2 {color: #F0F;}                /* CSS Property value names */
-.cm-s-regent-dark .cm-property {color: #F17413;}               /* CSS property names */
-.cm-s-regent-dark .cm-attribute {color: #F0F;}                 /* HTML attribute names */
-.cm-s-regent-dark .cm-qualifier {color: #F17413;}              /* CSS class names */
-.cm-s-regent-dark .cm-def {color: #519023;}                    /* CSS directives */
-.cm-s-regent-dark .cm-meta {color: #F0F;}                      /* HTML meta (doctype) */
-.cm-s-regent-dark .cm-tag {color: #F0F;}                       /* HTML tags */
-.cm-s-regent-dark .cm-link {color: #F0F;}
-.cm-s-regent-dark .cm-header {color: #F0F;}
-.cm-s-regent-dark .cm-quote {color: #F0F;}
-.cm-s-regent-dark .cm-hr {color: #F0F;}
-.cm-s-regent-dark .cm-string-2 {color: #F0F;}
-
-
-/* Rainbow Parens
-.cm-s-regent-dark span.cm-bracket0 { #F0FFF9EB8; }
-.cm-s-regent-dark span.cm-bracket2 {color: #F0F857F78;}
-.cm-s-regent-dark span.cm-bracket3 {color: #F0FFFA724;}
-.cm-s-regent-dark span.cm-bracket4 {color: #F0F8CFFBA;}
-.cm-s-regent-dark span.cm-bracket5 {color: #F0FFF9EB8;}
-.cm-s-regent-dark span.cm-bracket6 {color: #F0FC7915B;}
-.cm-s-regent-dark span.cm-bracket7 {color: #F0FF4CF86;}
-.cm-s-regent-dark span.cm-bracket8 {color: #F0FFFA724;}
-.cm-s-regent-dark span.cm-bracket9 {color: #F0F8CFFBA;}
-.cm-s-regent-dark span.cm-bracket10 {color: #F0FFF9EB8;}
-.cm-s-regent-dark span.cm-bracket11 {color: #F0FC7915B;}
-.cm-s-regent-dark span.cm-bracket12 {color: #F0FF4CF86;} */
+/* CSS/HTML stuff
+.cm-negative {color: #F0F;}
+.cm-positive {color: #F0F;}
+.cm-header, .cm-strong {font-weight: bold;}
+.cm-em {font-style: italic;}
+.cm-emstrong {font-style: italic; font-weight: bold;}
+.cm-link {text-decoration: underline;}
+.cm-invalidchar {color: #F0F;}
+*/
