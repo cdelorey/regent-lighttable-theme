@@ -58,33 +58,32 @@
 
 
 /* HTML/CSS -------------------------------------------------------------------------------- */
-.cm-s-regent-light .cm-variable-2 {color: #F0F;}           /* CSS Property value names */
-.cm-s-regent-light .cm-property {color: #F0F;}             /* CSS property names */
-.cm-s-regent-light .cm-attribute {color: #F0F;}            /* HTML attribute names */
-.cm-s-regent-light .cm-qualifier {color: #F0F;}            /* CSS class names */
-.cm-s-regent-light .cm-def {color: #F0F;}                  /* CSS directives */
-.cm-s-regent-light .cm-meta {color: #F0F;}                 /* HTML meta (doctype) */
-.cm-s-regent-light .cm-tag {color: #F0F;}                  /* HTML tags */
-.cm-s-regent-light .cm-link {color: #F0F;}
-.cm-s-regent-light .cm-header {color: #F0F;}
-.cm-s-regent-light .cm-quote {color: #F0F;}
-.cm-s-regent-light .cm-hr {color: #F0F;}
-.cm-s-regent-light .cm-string-2 {color: #F0F;}
-.cm-s-regent-light .cm-variable {color: #F0F;}
-.cm-s-regent-light .cm-variable-3 {color: #F0F;}
-.cm-s-regent-light .cm-operator {color: #F0F;}
+.cm-s-regent-light .cm-variable-2 {color: #F17413;}           /* CSS Property value names */
+.cm-s-regent-light .cm-property {color: #332404;}             /* CSS property names */
+.cm-s-regent-light .cm-attribute {color: #F1261F;}            /* HTML attribute names */
+.cm-s-regent-light .cm-qualifier {color: #87C5B8;}            /* CSS class names */
+.cm-s-regent-light .cm-def {color: #519023;}                  /* CSS directives */
+.cm-s-regent-light .cm-meta {color: #F17413;}                 /* HTML meta (doctype) */
+.cm-s-regent-light .cm-tag {color: #6E956A;}                  /* HTML tags */
+.cm-s-regent-light .cm-link {color: #F17413;}
+.cm-s-regent-light .cm-header {color: #F55E33;}
+.cm-s-regent-light .cm-quote {color: #F55E33;}
+.cm-s-regent-light .cm-hr {color: #519023;}
+.cm-s-regent-light .cm-string-2 {color: #F55E33;}
+.cm-s-regent-light .cm-variable {color: #519023;}
+.cm-s-regent-light .cm-variable-3 {color: #519023;}
+.cm-s-regent-light .cm-operator {color: #519023;}
 .cm-s-regent-light .cm-error {color: #F0F;}
 
 
-/* CSS/HTML stuff
-.cm-negative {color: #F0F;}
-.cm-positive {color: #F0F;}
+/* CSS/HTML stuff */
+/* .cm-negative {color: #F0F;} */
+/* .cm-positive {color: #F0F;} */
 .cm-header, .cm-strong {font-weight: bold;}
 .cm-em {font-style: italic;}
 .cm-emstrong {font-style: italic; font-weight: bold;}
 .cm-link {text-decoration: underline;}
 .cm-invalidchar {color: #F0F;}
-*/
 
 
 
